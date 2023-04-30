@@ -59,4 +59,5 @@ ENV PORT 3600
 CMD ["node", "server.js"]
 
 # docker build -f Dockerfile.web . -t nextjs-test
-# docker run -p 3600:3600 nextjs-test
+# docker run -d -p 3600:3600 nextjs-test
+# docker exec -it jolly_visvesvaraya sh
